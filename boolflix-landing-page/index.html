@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Boolflix-landig-page</title>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="" class="logo">
+          <img src="img/logo.png">
+        </a>
+        <a class="signin" href="file:///Users/riccardosalemi/Desktop/boolflix/index.html">
+          RICERCA FILM
+        </a>
+      </nav>
+
+      <section class="pitch">
+        <h1 class="pitch__title">See what’s next.</h1>
+        <p class="pitch__subtitle">Guarda ciò che vuoi ovunque.Disdici quando vuoi.</p>
+
+        <button class="btn">ISCRIVITI GRATIS PER UN MESE </button>
+      </section>
+    </header>
+
+    <div id="features">
+      <nav>
+        <div class="center columns size-80">
+          <a class="column is-selected" href="#" data-id="cancelanytime">
+            <img alt="Cancel anytime" src="img/cancel.svg"/>
+            <h2>
+              Senza impegno
+              <br/>
+              Disdici quando vuoi
+            </h2>
+          </a>
+
+          <a class="column" href="#" data-id="watchanywhere">
+            <img alt="Watch anywhere" src="img/watchanywhere.svg"/>
+            <h2>
+              Guarda Boolflix ovunque
+            </h2>
+          </a>
+
+          <a class="column" href="#" data-id="pickprice">
+            <img alt="Pick your price" src="img/pickprice.svg"/>
+            <h2>
+              Scegli quanto pagare
+            </h2>
+          </a>
+        </div>
+      </nav>
+
+      <article>
+        <section class="is-selected center size-70" data-id="cancelanytime">
+          <div class="columns">
+            <div class="column">
+              <h2>
+                Se decidi che Boolflix non fa per te... nessun problema.Senza impegno.Disdici online quando vuoi.
+              </h2>
+              <button class="btn btn-large">Iscriviti gratis per un mese</button>
+            </div>
+
+            <div class="column">
+              <img src="img/cancelanytime_withdevice.png"/>
+            </div>
+          </div>
+        </section>
+
+        <section class="center size-80" id="watchanywhere" data-id="watchanywhere">
+          <div class="columns">
+            <h2 class="column">
+              Guarda serie TV e film su misura per te. Quando vuoi, dove vuoi.
+            </h2>
+            <button class="btn btn-large column is-narrow">Iscriviti gratis per un mese</button>
+          </div>
+
+          <div class="columns size-90 center">
+            <div class="column text-center">
+              <img src="img/asset_TV_UI.png"/>
+              <h3>Guarda sulla tua tv</h3>
+              <p>Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, lettori Blu-ray e molti altri dispositivi.</p>
+            </div>
+
+            <div class="column text-center">
+              <img src="img/asset_mobile_tablet_UI_2.png"/>
+              <h3>Guarda i contenuti in streaming o scaricarli</h3>
+              <p>Disponibile su cellulare e tablet,ovunque ti trovi.</p>
+            </div>
+
+            <div class="column text-center">
+              <img src="img/asset_website_UI.png"/>
+              <h3>Usa qualsiasi computer</h3>
+              <p>Guarda programmi direttamente boolflix.com.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="center size-70" id="pickprice" data-id="pickprice">
+          <div class="text-center">
+            <h2>
+              Scegli un piano e guarda tutto su Netflix.
+            </h2>
+            <button class="btn btn-large">Iscriviti per un mese gratis</button>
+          </div>
+
+
+
+
+        </section>
+      </article>
+    </div>
+
+
+
+    <footer class="center size-90">
+      <p>
+        Domande? Chiama  <a href="tel:900 866 617">900 866 617</a>
+      </p>
+
+      <ul class="columns flex-wrap">
+        <li class="column is-25">
+          <a href=""><span>Domande frequenti</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Centro assistenza</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Account</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Media Center</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Rapporti con gli investitori</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Opportunità di lavoro</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>riscatta carte regalo</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Acquista carte regalo</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Condizioni di utilizzo</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Privacy</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Preferenze per i cookie</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span>Test di velocità</span></a>
+        </li>
+        <li class="column is-25">
+          <a href=""><span> Originals Boolflix</span></a>
+        </li>
+      </ul>
+
+      <div id="lang-selection">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <select tabindex="0">
+          <option value="it">Italiano</option>
+          <option selected value="en">English</option>
+        </select>
+      </div>
+
+      <p id="company">Boolflix-Italia</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
