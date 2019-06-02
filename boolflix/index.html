@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>ajax-BoolFlix</title>
+</head>
+<body>
+
+  <div id="main-container">
+
+    <nav>
+      <img class="logo" src="logo.png" alt="">
+      <div class="search_area">
+        <input id="inputSearch" type="text" name="" value="" placeholder="cerca il tuo film">
+        <button id="sourceButton" type="button" name="button">Cerca</button>
+      </div>
+    </nav>
+
+    <div class="content">
+      <script id="contentScript" type="text/x-handlebars-template">
+        <div class="card_content">
+          {{{ copertina }}}
+          <ul class="details_content">
+            <li class="title_content">{{ titolo }} </li>
+            <li>Titolo originale:  {{ titoloOriginale }} </li>
+            <li>Tipologia: {{ tipologiaContenuto}}</li>
+            <li class="score"> Voto:  {{{ votazione }}}</li>
+            <li>Lingua: {{{ lingua }}} </li>
+            <li class="trama">{{{ trama }}}</li>
+          </ul>
+        </div>
+      </script>
+    </div>
+
+  </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
